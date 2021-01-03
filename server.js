@@ -4,6 +4,7 @@ const path = require('path');
 const createNewNote = require("./lib/notes");
 const { notes } = require("./data/db.json");
 
+const PORT = process.env.PORT || 3001;
 // parse incoming string or array data
 app.use(express.urlencoded({ extended: true }));
 // parse incoming JSON data
@@ -37,4 +38,6 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, './public/index.html'));
 });
 
-app.listen(3000)
+app.listen(PORT, () => {
+  console.log(`API server now on port ${PORT}!`);
+});
