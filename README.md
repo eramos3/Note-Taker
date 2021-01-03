@@ -19,8 +19,6 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 ```
 git clone git@github.com:eramos3/Note-Taker.git
 ```
-[working deployed link recording](https://drive.google.com/file/d/1YGKn_moUuIFWGJ9B6L-Gdh3I-urqNRzm/view)
+![Note-taker Screenshot](./public/assets/images/note-taker.png)
 
-![Weather-Dashboard Screenshot](./assets/images/dashboard.png)
-
-[Weather-Dashboard page](https://eramos3.github.io/Weather-Dashboard/)
+[Note-taker page](https://morning-forest-30849.herokuapp.com/)
